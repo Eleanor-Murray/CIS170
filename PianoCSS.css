@@ -1,0 +1,70 @@
+.scene
+{
+	-fx-background-size: 1200 900;
+	-fx-background-radius: 30;
+	-fx-border-radius: 30;
+	-fx-border-width:5;
+	-fx-border-color: black;
+	-fx-background-repeat: stretch;
+
+}
+
+.flow-tile
+{
+	-fx-background-color:white;
+	-fx-border-color:black;
+	-fx-border-width:4;
+	-fx-background-opacity: 0.5;
+	-fx-background-radius: 20.0; 
+	-fx-font-color:black;
+	-fx-font-opacity:0.0;
+}
+
+
+.button 
+{
+	-fx-background-color:gray;
+	-fx-text-align: center;
+}
+
+.text-area
+{
+	-fx-border-color: transparent;
+	-fx-background-color:transparent;
+	-fx-faint-focus-color: transparent; 
+	-fx-focus-color: transparent;
+	-fx-background-insets: 0;
+    	-fx-background-color: transparent;
+}
+
+
+.text-field
+{
+	-fx-background-color:gainsboro;
+	-fx-border-color:gray;
+	-fx-border-weight:1;
+	-fx-background-color:transparent;
+
+}
+
+.combo-box
+{
+	-fx-background-color:gainsboro;
+	-fx-border-color:gray;
+	-fx-border-weight:1;
+	-fx-background-color:transparent;
+}
+
+
+.tooltip 
+{
+    -fx-background: gray;
+    -fx-text-fill: white;
+    -fx-background-color: rgba(30,30,30,0.8);
+    -fx-background-radius: 6px;
+    -fx-background-insets: 0;
+    -fx-show-delay: 20ms;
+}
+
+
+
